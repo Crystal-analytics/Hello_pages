@@ -1,0 +1,34 @@
+---
+title: "My Second Page"
+theme: darkly
+---
+
+
+
+```{r , attr.message=FALSE}
+#library(tidyverse)
+library(reactable)
+#library(plotly)
+#library(infer)
+```
+
+:::{.panel-tabset}
+
+
+## Interactive Table
+```{r}
+reactable(iris)
+```
+
+
+## Iris graph
+
+```{r}
+
+plot(iris)
+```
+
+
+:::
+
+
